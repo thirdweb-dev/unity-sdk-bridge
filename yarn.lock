@@ -2,31 +2,6 @@
 # yarn lockfile v1
 
 
-"@3rdweb/contracts@^1.10.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@3rdweb/contracts/-/contracts-1.12.0.tgz#cc12fd1ccec31f5a862c7f77a54852e8c50fe523"
-  integrity sha512-iS99EmzxT8ntilixMmZxvngb2UJ4gL3/Ua2Lh0A4PHH4c8QG/Fy5ZB1OilHzob1HQsF3CXLMMDCT61/lqNm9jQ==
-  dependencies:
-    "@chainlink/contracts" "^0.2.2"
-    "@openzeppelin/contracts" "^4.3.2"
-
-"@3rdweb/sdk@1.15.1-0":
-  version "1.15.1-0"
-  resolved "https://registry.yarnpkg.com/@3rdweb/sdk/-/sdk-1.15.1-0.tgz#81baa3db26a71bc9838ac81e5f74cd627710a38e"
-  integrity sha512-0qBBHx30JXSoFXM+dSWMzi52WkDa8YOwqa/dHBlirytiOpTn47iiO/x+r04chHFPnFad49H9ERrlLQCgC/JGZQ==
-  dependencies:
-    "@3rdweb/contracts" "^1.10.0"
-    "@ethersproject/bignumber" "^5.5.0"
-    "@ethersproject/bytes" "^5.4.0"
-    "@ethersproject/constants" "^5.5.0"
-    "@ethersproject/contracts" "^5.5.0"
-    "@ethersproject/keccak256" "^5.5.0"
-    "@ethersproject/providers" "^5.5.0"
-    "@ethersproject/units" "^5.5.0"
-    form-data "^4.0.0"
-    node-fetch "^2.6.5"
-    ts-enum-util "^4.0.2"
-
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -949,11 +924,6 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chainlink/contracts@^0.2.2":
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/@chainlink/contracts/-/contracts-0.2.2.tgz#8ea2079d8b22d25807fc63b98ccd3dc0bc2a33fe"
-  integrity sha512-wxXPbt7O3aZaUSG34ufFASC5amRSL6eeYCqsa+2gpqbB8Hk7B7FydEDCI5dqvAC444TlFskPHcVbizCZkRHPpw==
-
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -1051,7 +1021,7 @@
     "@ethersproject/logger" "^5.5.0"
     bn.js "^4.11.9"
 
-"@ethersproject/bytes@5.5.0", "@ethersproject/bytes@^5.4.0", "@ethersproject/bytes@^5.5.0":
+"@ethersproject/bytes@5.5.0", "@ethersproject/bytes@^5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/bytes/-/bytes-5.5.0.tgz#cb11c526de657e7b45d2e0f0246fb3b9d29a601c"
   integrity sha512-ABvc7BHWhZU9PNM/tANm/Qx4ostPGadAuQzWTr3doklZOhDlmcBqclrQe/ZXUIj3K8wC28oYeuRa+A37tX9kog==
@@ -1065,7 +1035,7 @@
   dependencies:
     "@ethersproject/bignumber" "^5.5.0"
 
-"@ethersproject/contracts@5.5.0", "@ethersproject/contracts@^5.5.0":
+"@ethersproject/contracts@5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/contracts/-/contracts-5.5.0.tgz#b735260d4bd61283a670a82d5275e2a38892c197"
   integrity sha512-2viY7NzyvJkh+Ug17v7g3/IJC8HqZBDcOjYARZLdzRxrfGlRgmYgl6xPRKVbEzy1dWKw/iv7chDcS83pg6cLxg==
@@ -1167,7 +1137,7 @@
   dependencies:
     "@ethersproject/logger" "^5.5.0"
 
-"@ethersproject/providers@5.5.0", "@ethersproject/providers@^5.5.0":
+"@ethersproject/providers@5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/providers/-/providers-5.5.0.tgz#bc2876a8fe5e0053ed9828b1f3767ae46e43758b"
   integrity sha512-xqMbDnS/FPy+J/9mBLKddzyLLAQFjrVff5g00efqxPzcAwXiR+SiCGVy6eJ5iAIirBOATjx7QLhDNPGV+AEQsw==
@@ -1265,7 +1235,7 @@
     "@ethersproject/rlp" "^5.5.0"
     "@ethersproject/signing-key" "^5.5.0"
 
-"@ethersproject/units@5.5.0", "@ethersproject/units@^5.5.0":
+"@ethersproject/units@5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/units/-/units-5.5.0.tgz#104d02db5b5dc42cc672cc4587bafb87a95ee45e"
   integrity sha512-7+DpjiZk4v6wrikj+TCyWWa9dXLNU73tSTa7n0TSJDxkYbV3Yf1eRh9ToMLlZtuctNYu9RDNNy2USq3AdqSbag==
@@ -1601,11 +1571,6 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
-
-"@openzeppelin/contracts@^4.3.2":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.3.3.tgz#ff6ee919fc2a1abaf72b22814bfb72ed129ec137"
-  integrity sha512-tDBopO1c98Yk7Cv/PZlHqrvtVjlgK5R4J6jxLwoO7qxK4xqOiZG+zSkIvGFpPZ0ikc3QOED3plgdqjgNTnBc7g==
 
 "@rollup/plugin-babel@^5.1.0":
   version "5.3.0"
@@ -3873,15 +3838,6 @@ form-data@^3.0.0:
     combined-stream "^1.0.8"
     mime-types "^2.1.12"
 
-form-data@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
-  integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
-  dependencies:
-    asynckit "^0.4.0"
-    combined-stream "^1.0.8"
-    mime-types "^2.1.12"
-
 form-data@~2.3.2:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.3.3.tgz#dcce52c05f644f298c6a7ab936bd724ceffbf3a6"
@@ -5695,13 +5651,6 @@ no-case@^3.0.4:
     lower-case "^2.0.2"
     tslib "^2.0.3"
 
-node-fetch@^2.6.5:
-  version "2.6.6"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.6.tgz#1751a7c01834e8e1697758732e9efb6eeadfaf89"
-  integrity sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA==
-  dependencies:
-    whatwg-url "^5.0.0"
-
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -7237,16 +7186,6 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
-tr46@~0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
-  integrity sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=
-
-ts-enum-util@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/ts-enum-util/-/ts-enum-util-4.0.2.tgz#2587a6fa8e8629f3715009e5090d52df9456f7e2"
-  integrity sha512-BB5qjvHYgYgOB/CaoA1Cy/B2QNnZ+nVBrJ15VV/AXGWx+AO83k5wgeLOJvkSLoKKavvH/M8Wj4ZbgROjsuYwzw==
-
 ts-jest@^25.3.1:
   version "25.5.1"
   resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-25.5.1.tgz#2913afd08f28385d54f2f4e828be4d261f4337c7"
@@ -7602,11 +7541,6 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
-webidl-conversions@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
-  integrity sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=
-
 webidl-conversions@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
@@ -7623,14 +7557,6 @@ whatwg-mimetype@^2.2.0, whatwg-mimetype@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/whatwg-mimetype/-/whatwg-mimetype-2.3.0.tgz#3d4b1e0312d2079879f826aff18dbeeca5960fbf"
   integrity sha512-M4yMwr6mAnQz76TbJm914+gPpB/nCwvZbJU28cUD6dR004SAxDLOOSUaB1JDRqLtaOV/vi0IC5lEAGFgrjGv/g==
-
-whatwg-url@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
-  integrity sha1-lmRU6HZUYuN2RNNib2dCzotwll0=
-  dependencies:
-    tr46 "~0.0.3"
-    webidl-conversions "^3.0.0"
 
 whatwg-url@^7.0.0:
   version "7.1.0"
