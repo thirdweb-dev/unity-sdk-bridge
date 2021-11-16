@@ -1,0 +1,12 @@
+node_modules/
+lib/
+temp/
+bin/
+dist/
+.idea
+.vscode
+yarn-error.log
+.DS_Store
+.parcel-cache/
+tsconfig.tsbuildinfo
+
