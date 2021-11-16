@@ -19,9 +19,6 @@
   "scripts": {
     "build:tsdx": "tsdx build",
     "format": "prettier src/ --write",
-    "prepublishOnly": "yarn lint",
-    "lint": "eslint src/",
-    "fix": "eslint src/ --fix",
     "generate-types": "tsc",
     "build": "yarn build:tsdx"
   },
