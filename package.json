@@ -4,7 +4,7 @@
   "description": "The Unity bridge SDK.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nftlabs/unity-sdk-bridge.git"
+    "url": "git+https://github.com/thirdweb-dev/unity-sdk-bridge.git"
   },
   "license": "MIT",
   "source": "src/index.ts",
@@ -62,9 +62,9 @@
     "validator": "^13.7.0 "
   },
   "bugs": {
-    "url": "https://github.com/nftlabs/unity-sdk-bridge/issues"
+    "url": "https://github.com/thirdweb-dev/unity-sdk-bridge/issues"
   },
-  "homepage": "https://github.com/nftlabs/unity-sdk-bridge#readme",
+  "homepage": "https://github.com/thirdweb-dev/unity-sdk-bridge#readme",
   "author": "thirdweb",
   "dependencies": {
     "uuid": "^8.3.2"
